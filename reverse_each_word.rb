@@ -10,3 +10,4 @@
 def reverse_each_word(sentence)
   sentence.split.collect do|w| w.reverse end.join(" ")
 end
+#outside the loop you want to appply the join!
